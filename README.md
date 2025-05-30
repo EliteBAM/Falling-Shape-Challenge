@@ -20,7 +20,7 @@ This is my take on a CodeSignal "general coding assessment" question, as I remem
 
 - Each test level animates in the terminal. This was not part of the CodeSignal challenge, but I thought it was awesome!
 
-- Levels are modular — main.js will is set to run through every test level in a loop
+- Levels are modular — main.js is set to run through every test level in a loop
 
 ## How to Run
 
