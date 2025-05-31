@@ -1,5 +1,5 @@
 <div align = "center">
-    <img src="./falling_shape.gif" alt="Demo"/>
+    <img src="./falling_shape.gif" alt="Demo" width = "10%"/>
 </div>
 
 # Code Signal Challenge Question #3 -- Falling Shape
