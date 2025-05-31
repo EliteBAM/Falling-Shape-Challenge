@@ -1,0 +1,325 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: cmd.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\bobby\Documents\GitHub\Falling-Shape-Challenge
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 46
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Falling Shape
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 540
+    content: "\e[2J\e[m\e[HMicrosoft Windows [Version 10.0.19045.5854]\e]0;C:\\Windows\\SYSTEM32\\cmd.exe\a\e[?25h"
+  - delay: 15
+    content: "\r\n(c) Microsoft Corporation. All rights reserved.\e[9X\r\n\e[56X\r\nC:\\Users\\bobby\\Documents\\GitHub\\Falling-Shape-Challenge>"
+  - delay: 4458
+    content: 'n'
+  - delay: 65
+    content: p
+  - delay: 179
+    content: m
+  - delay: 119
+    content: ' '
+  - delay: 364
+    content: s
+  - delay: 120
+    content: t
+  - delay: 148
+    content: a
+  - delay: 146
+    content: r
+  - delay: 230
+    content: t
+  - delay: 515
+    content: "\r\n"
+  - delay: 9
+    content: "\e]0;C:\\Windows\\SYSTEM32\\cmd.exe - npm  start\a"
+  - delay: 121
+    content: "\e]0;npm\a"
+  - delay: 84
+    content: "\e]0;npm start\a"
+  - delay: 36
+    content: "\e[25l\r\n> falling-shape-challenge@1.0.0 start\r\n> node main.js\e[23X\e[9;1H\e[?25h"
+  - delay: 9
+    content: "\e[K"
+  - delay: 61
+    content: "(node:2244) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/bobby/Documents/GitHub/Falling-Shape\r\n-Challenge/main.js is not specified and it doesn't parse as CommonJS.\e[K\r\nReparsing as ES module because module syntax was detected. This incurs a performance overhead.\e[K\r\nTo eliminate this warning, add \"type\": \"module\" to C:\\Users\\bobby\\Documents\\GitHub\\Falling-Shape-Challenge\\package.json.\r\n(Use `node --trace-warnings ...` to show where the warning was created)\e[K\r\n"
+  - delay: 18
+    content: "\e[25l\e[HF F F F F\e[K\r\nF   F\e[K\r\n    F\e[K\r\n    F F\e[K\r\n  #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 297
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[K\r\nF F F F F\e[K\r\nF   F\e[K\r\n    F\e[K\r\n  # F F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 298
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 17
+    content: "\e[25l\e[K\r\n\e[K\r\nF F F F F\e[K\r\nF   F\e[K\r\n  # F\e[K\r\n    F F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 295
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\nF F F F F\e[K\r\nF # F\e[K\r\n    F\e[K\r\n    F F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 17
+    content: "\e[25l  F\e[K\r\n  F\e[K\r\n  F\e[K\r\n  F\e[K\r\n\e[K\r\n  # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 19
+    content: "\e[25l\e[K\r\n  F\e[K\r\n  F\e[K\r\n  F\e[K\r\n  F\e[K\r\n  # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 293
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25lF F     F\e[K\r\n  F   F\e[K\r\n        F\e[K\r\n\e[K\r\n# # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 298
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l        F\e[K\r\nF F   F\e[K\r\n  F     F\e[K\r\n\e[K\r\n# # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 18
+    content: "\e[25l        F\e[K\r\n      F\e[K\r\nF F     F\e[K\r\n  F\e[K\r\n# # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 295
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n  F F F\e[K\r\n  # # #\e[K\r\n  # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 18
+    content: "\e[25l  F F F\e[K\r\n    F\e[K\r\n    F\e[K\r\n# #   # #\e[K\r\n# #   # #\e[K\r\n# #   # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 295
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 18
+    content: "\e[25l\e[K\r\n  F F F\e[K\r\n    F\e[K\r\n# # F # #\e[K\r\n# #   # #\e[K\r\n# #   # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 294
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 18
+    content: "\e[25l\e[K\r\n\e[K\r\n  F F F\e[K\r\n# # F # #\e[K\r\n# # F # #\e[K\r\n# #   # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 295
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l        F\e[K\r\n        F\e[K\r\n        F\e[K\r\n\e[K\r\n# # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[K\r\n        F\e[K\r\n        F\e[K\r\n        F\e[K\r\n# # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[K\r\n\e[K\r\n        F\e[K\r\n        F\e[K\r\n# # # # F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 20
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n        F\e[K\r\n# # # # F\e[K\r\n        F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 293
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n# # # # F\e[K\r\n        F\e[K\r\n        F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 19
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n# # # #\e[K\r\n        F\e[K\r\n        F\e[K\r\n        F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 294
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 17
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n# # # #\e[K\r\n\e[K\r\n        F\e[K\r\n        F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 21
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n# # # #\e[K\r\n\e[K\r\n\e[K\r\n        F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 290
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n# # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 298
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[K\r\n# # # # #\e[K\r\n# F F F #\e[K\r\n# F   F #\e[K\r\n# # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 18
+    content: "\e[25l              F F\e[K\r\n            F F\e[K\r\n\e[K\r\n  # #   # #       #\e[K\r\n\e[K\r\n\e[K\r\n                #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 295
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[K\r\n              F F\e[K\r\n            F F\e[K\r\n  # #   # #       #\e[K\r\n\e[K\r\n\e[K\r\n                #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 297
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[K\r\n\e[K\r\n              F F\e[K\r\n  # #   # # F F   #\e[K\r\n\e[K\r\n\e[K\r\n                #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 298
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n  # #   # #   F F #\e[K\r\n            F F\e[K\r\n\e[K\r\n                #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 19
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n  # #   # #       #\e[K\r\n              F F\e[K\r\n            F F\e[K\r\n                #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 294
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 17
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n  # #   # #       #\e[K\r\n\e[K\r\n              F F\e[K\r\n            F F #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 295
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l        F\e[K\r\n        F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n        #\e[K\r\n# # # # # # # # # #\e[K\r\n# # # # # # # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[K\r\n        F\e[K\r\n        F\e[K\r\n\e[K\r\n\e[K\r\n        #\e[K\r\n# # # # # # # # # #\e[K\r\n# # # # # # # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 297
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[K\r\n\e[K\r\n        F\e[K\r\n        F\e[K\r\n\e[K\r\n        #\e[K\r\n# # # # # # # # # #\e[K\r\n# # # # # # # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 297
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 18
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n        F\e[K\r\n        F\e[K\r\n        #\e[K\r\n# # # # # # # # # #\e[K\r\n# # # # # # # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[?25h"
+  - delay: 294
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l            F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n          #   #\e[K\r\n          # # #\e[K\r\n# # # #           #\e[K\r\n# # # # # # # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[11;1H\e[?25h"
+  - delay: 297
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[K\r\n            F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n          #   #\e[K\r\n          # # #\e[K\r\n# # # #           #\e[K\r\n# # # # # # # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[11;1H\e[?25h"
+  - delay: 297
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 18
+    content: "\e[25l\e[K\r\n\e[K\r\n            F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n          #   #\e[K\r\n          # # #\e[K\r\n# # # #           #\e[K\r\n# # # # # # # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[11;1H\e[?25h"
+  - delay: 294
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n            F\e[K\r\n\e[K\r\n\e[K\r\n          #   #\e[K\r\n          # # #\e[K\r\n# # # #           #\e[K\r\n# # # # # # # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[11;1H\e[?25h"
+  - delay: 297
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 17
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n            F\e[K\r\n\e[K\r\n          #   #\e[K\r\n          # # #\e[K\r\n# # # #           #\e[K\r\n# # # # # # # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[11;1H\e[?25h"
+  - delay: 295
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 17
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n            F\e[K\r\n          #   #\e[K\r\n          # # #\e[K\r\n# # # #           #\e[K\r\n# # # # # # # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[11;1H\e[?25h"
+  - delay: 295
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 18
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n          # F #\e[K\r\n          # # #\e[K\r\n# # # #           #\e[K\r\n# # # # # # # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[11;1H\e[?25h"
+  - delay: 295
+    content: "\e[25l\e[H\e[?25h"
+  - delay: 17
+    content: "\e[25l\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n# # # # # # # # # #\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[11;1H\e[?25h"
+  - delay: 311
+    content: "\e[K\e]0;C:\\Windows\\SYSTEM32\\cmd.exe\a"
+  - delay: 15
+    content: "\r\nC:\\Users\\bobby\\Documents\\GitHub\\Falling-Shape-Challenge>"
+  - delay: 1215
+    content: e
+  - delay: 89
+    content: x
+  - delay: 175
+    content: i
+  - delay: 55
+    content: t
+  - delay: 229
+    content: "\r\n"

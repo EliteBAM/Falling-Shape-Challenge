@@ -1,3 +1,7 @@
+<div align = "center">
+    <img src="./falling_shape.gif" alt="Demo"/>
+</div>
+
 # Code Signal Challenge Question #3 -- Falling Shape
 
 ## Description
