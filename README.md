@@ -28,7 +28,7 @@ This is my take on a CodeSignal "general coding assessment" question, as I remem
 
 ## How to Run
 
-1. Download the project zip from GitHub, or in your email, if attached.
+1. Download the project zip from GitHub.
 2. Unzip the file. Ensure that `main.js`, `levels.js`, and `package.json` are in the same directory.
 3. Ensure you have Node.js installed on your system.
 4. cd into the directory in your terminal, and execute the command:
